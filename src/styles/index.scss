@@ -1,3 +1,14 @@
+@import 'variables';
+@import 'blocks/stars';
+@import 'blocks/card';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
+  background-color: $color-white;
 }
